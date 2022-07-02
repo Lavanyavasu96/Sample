@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PracticeSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="flipkart.com.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="test(failed)">
+    <classes>
+      <class name="flipkart.com.Practice">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- flipkart.com.Practice -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [PracticeSuite] -->
